@@ -1,0 +1,30 @@
+
+FEATURE IMPORTANCE ANALYSIS SUMMARY
+============================================================
+
+TOP 10 MOST IMPORTANT FEATURES (OVERALL):
+
+Leverage_Ratio: 0.3030
+Current_Ratio: 0.2789
+Profit_Margin: 0.0116
+Leverage_Ratio_lag6: 0.0113
+Quick_Ratio_rolling6_std: 0.0112
+Current_Ratio_rolling6_std: 0.0104
+Current_Ratio_rolling3_std: 0.0103
+Leverage_Ratio_rolling6_std: 0.0103
+Quick_Ratio_rolling3_std: 0.0103
+Profit_Margin_rolling6_std: 0.0102
+
+
+FEATURE CATEGORY BREAKDOWN:
+                            sum      mean  count
+Category                                        
+Original Features      0.625770  0.028444     22
+Lag Features           0.148645  0.003811     39
+Rolling Std Features   0.119971  0.004614     26
+Rolling Mean Features  0.105614  0.002708     39
+
+KEY INSIGHTS:
+- Total features analyzed: 126
+- Most important feature: Leverage_Ratio
+- Importance score: 0.3030

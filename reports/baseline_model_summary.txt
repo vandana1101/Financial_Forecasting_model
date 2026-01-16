@@ -1,0 +1,35 @@
+
+BASELINE MODEL EVALUATION REPORT
+============================================================
+
+MODEL CONFIGURATION:
+  Algorithm: Random Forest Multi-Output Regressor
+  Training Samples: 10,100
+  Test Samples: 1,300
+  Features: 126
+  Targets: 3
+  Training Time: 26.48 seconds
+
+TEST SET PERFORMANCE:
+
+  Credit_Risk_Score:
+    RMSE: 5.0616
+    MAE:  4.0364
+    R²:   0.5338
+    MAPE: 6.85%
+
+  Liquidity_Ratio:
+    RMSE: 0.2175
+    MAE:  0.1525
+    R²:   0.7874
+    MAPE: 12.19%
+
+  Market_Volatility_Exposure:
+    RMSE: 0.2009
+    MAE:  0.1609
+    R²:   0.2981
+    MAPE: 13.05%
+
+OVERALL PERFORMANCE:
+  Average R² Score: 0.5398
+  Average MAPE: 10.70%

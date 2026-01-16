@@ -1,0 +1,25 @@
+
+DATA INSPECTION REPORT
+Generated: 2025-10-16 22:37:34.499281
+
+DATASET OVERVIEW:
+- Total Records: 12000
+- Total Features: 28
+- Companies: 100
+- Date Range: 2015-01-01 00:00:00 to 2024-01-12 00:00:00
+- Duplicates: 0
+
+MISSING VALUES:
+                     Missing_Count  Missing_Percentage
+VIX(Monthly_Return)            100                0.83
+
+TARGET VARIABLES STATISTICS:
+       Credit_Risk_Score  Liquidity_Ratio  Market_Volatility_Exposure
+count       12000.000000     12000.000000                12000.000000
+mean           59.907020         1.579157                    1.303379
+std             7.520392         0.468755                    0.236883
+min            32.275787         0.200455                    0.393721
+25%            54.690592         1.227520                    1.145144
+50%            60.019308         1.551671                    1.302184
+75%            65.163733         1.914244                    1.464304
+max            85.438757         3.238126                    2.230540

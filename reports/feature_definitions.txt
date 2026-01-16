@@ -1,0 +1,36 @@
+
+FEATURE DEFINITIONS FOR MULTI-OUTPUT RISK FORECASTING
+======================================================
+
+TARGET VARIABLES (What we predict):
+1. Credit_Risk_Score
+2. Liquidity_Ratio
+3. Market_Volatility_Exposure
+
+FIRM-LEVEL FEATURES (Company financial ratios):
+1. Current_Ratio
+2. Quick_Ratio
+3. Leverage_Ratio
+4. Profit_Margin
+
+MACRO-ECONOMIC FEATURES (Economic indicators):
+1. GDP Growth rate
+2. CPI Inflation index
+3. Policy Repo rate
+4. Unemployment Rate(%)
+5. Money Supply (M2)(000'Billion)
+
+MARKET FEATURES (Market & volatility indicators):
+1. Stock Market Index(Monthly_Close)
+2. Stock Market Index(Monthly_Return)
+3. Stock Market Index(Monthly_Volatility)
+4. VIX(Monthly_Close)
+5. VIX(Monthly_Return)
+6. VIX(Monthly_Volatility)
+7. 10-Year Government Bond Yield
+8. AAA Corporate Bond Yield
+9. Government Bond Yield (%) (10Y benchmark)
+10. Corporate Bond Spread
+11. Exchange Rate (USD/INR)(Monthly_Close)
+12. Exchange Rate (USD/INR)(Monthly_Return)
+13. Exchange Rate (USD/INR)(Monthly_Volatility)

@@ -1,0 +1,137 @@
+FEATURES FOR MODELING
+============================================================
+
+Total features: 126
+
+1. Current_Ratio
+2. Quick_Ratio
+3. Leverage_Ratio
+4. Profit_Margin
+5. GDP Growth rate
+6. CPI Inflation index
+7. Policy Repo rate
+8. Unemployment Rate(%)
+9. Money Supply (M2)(000'Billion)
+10. Stock Market Index(Monthly_Close)
+11. Stock Market Index(Monthly_Return)
+12. Stock Market Index(Monthly_Volatility)
+13. VIX(Monthly_Close)
+14. VIX(Monthly_Return)
+15. VIX(Monthly_Volatility)
+16. 10-Year Government Bond Yield
+17. AAA Corporate Bond Yield
+18. Government Bond Yield (%) (10Y benchmark)
+19. Corporate Bond Spread
+20. Exchange Rate (USD/INR)(Monthly_Close)
+21. Exchange Rate (USD/INR)(Monthly_Return)
+22. Exchange Rate (USD/INR)(Monthly_Volatility)
+23. Current_Ratio_lag1
+24. Current_Ratio_lag3
+25. Current_Ratio_lag6
+26. Quick_Ratio_lag1
+27. Quick_Ratio_lag3
+28. Quick_Ratio_lag6
+29. Leverage_Ratio_lag1
+30. Leverage_Ratio_lag3
+31. Leverage_Ratio_lag6
+32. Profit_Margin_lag1
+33. Profit_Margin_lag3
+34. Profit_Margin_lag6
+35. GDP Growth rate_lag1
+36. GDP Growth rate_lag3
+37. GDP Growth rate_lag6
+38. CPI Inflation index_lag1
+39. CPI Inflation index_lag3
+40. CPI Inflation index_lag6
+41. Policy Repo rate_lag1
+42. Policy Repo rate_lag3
+43. Policy Repo rate_lag6
+44. Stock Market Index(Monthly_Return)_lag1
+45. Stock Market Index(Monthly_Return)_lag3
+46. Stock Market Index(Monthly_Return)_lag6
+47. Stock Market Index(Monthly_Volatility)_lag1
+48. Stock Market Index(Monthly_Volatility)_lag3
+49. Stock Market Index(Monthly_Volatility)_lag6
+50. VIX(Monthly_Close)_lag1
+51. VIX(Monthly_Close)_lag3
+52. VIX(Monthly_Close)_lag6
+53. VIX(Monthly_Return)_lag1
+54. VIX(Monthly_Return)_lag3
+55. VIX(Monthly_Return)_lag6
+56. 10-Year Government Bond Yield_lag1
+57. 10-Year Government Bond Yield_lag3
+58. 10-Year Government Bond Yield_lag6
+59. Exchange Rate (USD/INR)(Monthly_Return)_lag1
+60. Exchange Rate (USD/INR)(Monthly_Return)_lag3
+61. Exchange Rate (USD/INR)(Monthly_Return)_lag6
+62. Current_Ratio_rolling3_mean
+63. Current_Ratio_rolling6_mean
+64. Current_Ratio_rolling12_mean
+65. Quick_Ratio_rolling3_mean
+66. Quick_Ratio_rolling6_mean
+67. Quick_Ratio_rolling12_mean
+68. Leverage_Ratio_rolling3_mean
+69. Leverage_Ratio_rolling6_mean
+70. Leverage_Ratio_rolling12_mean
+71. Profit_Margin_rolling3_mean
+72. Profit_Margin_rolling6_mean
+73. Profit_Margin_rolling12_mean
+74. GDP Growth rate_rolling3_mean
+75. GDP Growth rate_rolling6_mean
+76. GDP Growth rate_rolling12_mean
+77. CPI Inflation index_rolling3_mean
+78. CPI Inflation index_rolling6_mean
+79. CPI Inflation index_rolling12_mean
+80. Policy Repo rate_rolling3_mean
+81. Policy Repo rate_rolling6_mean
+82. Policy Repo rate_rolling12_mean
+83. Stock Market Index(Monthly_Return)_rolling3_mean
+84. Stock Market Index(Monthly_Return)_rolling6_mean
+85. Stock Market Index(Monthly_Return)_rolling12_mean
+86. Stock Market Index(Monthly_Volatility)_rolling3_mean
+87. Stock Market Index(Monthly_Volatility)_rolling6_mean
+88. Stock Market Index(Monthly_Volatility)_rolling12_mean
+89. VIX(Monthly_Close)_rolling3_mean
+90. VIX(Monthly_Close)_rolling6_mean
+91. VIX(Monthly_Close)_rolling12_mean
+92. VIX(Monthly_Return)_rolling3_mean
+93. VIX(Monthly_Return)_rolling6_mean
+94. VIX(Monthly_Return)_rolling12_mean
+95. 10-Year Government Bond Yield_rolling3_mean
+96. 10-Year Government Bond Yield_rolling6_mean
+97. 10-Year Government Bond Yield_rolling12_mean
+98. Exchange Rate (USD/INR)(Monthly_Return)_rolling3_mean
+99. Exchange Rate (USD/INR)(Monthly_Return)_rolling6_mean
+100. Exchange Rate (USD/INR)(Monthly_Return)_rolling12_mean
+101. Current_Ratio_rolling3_std
+102. Current_Ratio_rolling6_std
+103. Quick_Ratio_rolling3_std
+104. Quick_Ratio_rolling6_std
+105. Leverage_Ratio_rolling3_std
+106. Leverage_Ratio_rolling6_std
+107. Profit_Margin_rolling3_std
+108. Profit_Margin_rolling6_std
+109. GDP Growth rate_rolling3_std
+110. GDP Growth rate_rolling6_std
+111. CPI Inflation index_rolling3_std
+112. CPI Inflation index_rolling6_std
+113. Policy Repo rate_rolling3_std
+114. Policy Repo rate_rolling6_std
+115. Stock Market Index(Monthly_Return)_rolling3_std
+116. Stock Market Index(Monthly_Return)_rolling6_std
+117. Stock Market Index(Monthly_Volatility)_rolling3_std
+118. Stock Market Index(Monthly_Volatility)_rolling6_std
+119. VIX(Monthly_Close)_rolling3_std
+120. VIX(Monthly_Close)_rolling6_std
+121. VIX(Monthly_Return)_rolling3_std
+122. VIX(Monthly_Return)_rolling6_std
+123. 10-Year Government Bond Yield_rolling3_std
+124. 10-Year Government Bond Yield_rolling6_std
+125. Exchange Rate (USD/INR)(Monthly_Return)_rolling3_std
+126. Exchange Rate (USD/INR)(Monthly_Return)_rolling6_std
+
+
+TARGET VARIABLES:
+1. Credit_Risk_Score
+2. Liquidity_Ratio
+3. Market_Volatility_Exposure
